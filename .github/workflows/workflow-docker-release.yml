@@ -1,6 +1,7 @@
 name: workflow-docker-release
 
 on:
+  workflow_dispatch:
   push:
     branch:
       - '*'
