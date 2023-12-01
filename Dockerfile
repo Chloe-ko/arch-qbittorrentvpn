@@ -43,7 +43,7 @@ EXPOSE 8080
 EXPOSE 8118
 
 # set permissions
-##################
+#################
 
 # run script to set uid, gid and permissions
 CMD ["/bin/bash", "/usr/local/bin/init.sh"]
